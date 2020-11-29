@@ -2,4 +2,7 @@
 
 require_relative '../config/environment'
 
+require 'irb'
+IRB.start
+
 MusicLibraryController.new.call
